@@ -171,6 +171,7 @@
 
     section.promotion {
         height: 40vh;
+        margin-top: 0;
     }
 
     .promotion-left-panel {
