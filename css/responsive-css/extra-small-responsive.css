@@ -224,15 +224,14 @@
     /*===PRODUCT PROMOTION ENDS===*/
 
     div.carousel {
-        height: 55vh;
-        margin: 2rem auto 0;
+        height: 50vh;
         /*background: #000;*/
     }
 
 
     div.carousel p {
         font-size: 1.6rem;
-        margin: 1.6rem 0;
+        /*margin: 1.6rem 0;*/
     }
     
     div.carousel-inner {

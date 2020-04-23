@@ -1,11 +1,14 @@
 
 div.carousel {
   width: 100%;
-  height: 95vh;
+  height: 90vh;
   margin: 30px auto 0;
-  margin-top: 0;
   float: left;
   /*background: #000;*/
+}
+
+#mySlide.carousel.slide {
+  margin: 0;
 }
 
 .carousel-indicators li {
@@ -58,8 +61,7 @@ div.carousel p {
   text-align: center;
   text-shadow: 1px 1px 0px #fff;
   color: #000;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  padding: 2rem;
 }
 
 div.carousel-inner {
@@ -71,26 +73,28 @@ div.carousel-inner {
 
 div.carousel-item {
   max-width: 100%;
-  height: 100%;
+  height: 90%;
   /*background-color: lightseagreen;*/
 }
 
 div.flex-row {
   width: 100%;
+  height: 100%;
   display: flex;
   justify-content: space-between;
 }
 
 div.flex-col {
-  width: 220px;
+  width: 22%;
+  height: 100%;
   background-color: rgb(172, 100, 78);
   box-shadow: 0px 5px 10px grey;
 }
 
 div.image-rack {
-  width: 220px;
-  height: 250px;
-  max-height: 260px;
+  width: 100%;
+  height: 70%;
+ /* max-height: 260px;*/
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
