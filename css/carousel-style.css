@@ -1,0 +1,183 @@
+
+div.carousel {
+  width: 100%;
+  height: 95vh;
+  margin: 30px auto 0;
+  margin-top: 0;
+  float: left;
+  /*background: #000;*/
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgb(92, 203, 240);
+  box-shadow: inset 2px 2px 4px 1px rgba(0,0,0,0.5);
+}
+
+.carousel-indicators .active {
+  background-color: rgb(172, 40, 0);
+}
+
+div.carousel span {
+  color:  #002bff !important;
+}
+
+
+.carousel-control-next,
+.carousel-control-prev {
+  top: 47%;
+  bottom: 47%;
+  width: 40px;
+  height: 40px;
+  background: #000;
+  border-radius: 50%;
+}
+
+.carousel-control-next {
+  margin-right: 40px;
+}
+
+.carousel-control-prev {
+  margin-left: 40px;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff0000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+ }
+
+ .carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff0000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+div.carousel p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 4rem;
+  text-align: center;
+  text-shadow: 1px 1px 0px #fff;
+  color: #000;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+div.carousel-inner {
+  width: 80%;
+  height: 63vh;
+  margin: 0 auto;
+  /*background-color: lightcoral;*/
+}
+
+div.carousel-item {
+  max-width: 100%;
+  height: 100%;
+  /*background-color: lightseagreen;*/
+}
+
+div.flex-row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+div.flex-col {
+  width: 220px;
+  background-color: rgb(172, 100, 78);
+  box-shadow: 0px 5px 10px grey;
+}
+
+div.image-rack {
+  width: 220px;
+  height: 250px;
+  max-height: 260px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+div.flex-col p {
+  text-shadow: none;
+  padding: 0.5rem;
+}
+
+div.flex-col p.image-label {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #fff;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+div.flex-col p.price-tag {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 0 0;
+}
+
+.clearfix {
+  clear: both;
+  display: block;
+}
+
+/*===CAROUSEL DESIGN ENDS===*/
+
+/*===PREV NEXT BUTTONS EFFECT START===*/
+
+.carousel-control-prev::before,
+.carousel-control-next::before {
+  content: '';
+  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  position: absolute;
+  top: -2px;
+  left:-2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+  border-radius: 50%;
+}
+
+.carousel-control-prev:active,
+.carousel-control-next:active {
+  color: #000
+}
+
+.carousel-control-prev:active::after,
+.carousel-control-next:active::after {
+  background: transparent;
+}
+
+.carousel-control-prev:hover::before,
+.carousel-control-next:hover::before {
+  opacity: 1;
+}
+
+.carousel-control-prev:after,
+.carousel-control-next:after {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #111;
+  left: 0;
+  top: 0;
+  border-radius: 50%;
+}
+
+@keyframes glowing {
+  0% { background-position: 0 0; }
+  50% { background-position: 400% 0; }
+  100% { background-position: 0 0; }
+}
+
+/*===PREV NEXT BUTTONS EFFECT END===*/

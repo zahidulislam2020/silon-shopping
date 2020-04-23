@@ -1,0 +1,303 @@
+@media (max-width: 575px) {
+    .info-items-right {
+        display: none;
+    }
+
+    .info-items-left {
+        margin: 0 auto;
+    }
+
+    div.logo {
+        margin: 0 auto;
+    }
+
+    /*===INFO TOP ENDS===*/
+
+    ul.links {
+        width: 100%;
+        height: 2.5rem;
+        background: rgb(0, 128, 128);
+    }
+     
+    ul.links li a {
+        padding: 0;
+        width: fit-content;
+        font-size: 1.2rem;
+        color: #fff;
+        background: rgb(0, 128, 128);
+        text-shadow: 1px 1px 1px #000;
+        margin-top: 4px;
+    }
+
+    ul.links li a:hover {
+        background: rgb(0, 128, 128);
+        cursor: default;
+        color: #fff;
+        text-shadow: 1px 1px 1px #000;
+
+    }
+
+    .nav-icons {
+        width: 100%;
+        height: 2.5rem;
+        margin: 0 auto;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        background: rgb(0, 128, 128);
+        margin-bottom: 0.625rem;
+    }
+
+    .nav-icons::before {
+        content: "A Search Box will apear here";
+        margin-right: 10px;
+        color: #fff;
+        text-shadow: 0.5px 1px 1px #000;
+        font-size: 1.4rem;
+        animation: flash 1s ease infinite alternate;
+    }
+      
+      @keyframes flash {
+        0% {
+          opacity: 0;
+        }
+      }
+
+    .nav-icons>li {
+       margin-right: 20px;
+    }
+
+    .nav-icons li i {
+        text-shadow: 0.5px 1px 1px #000;
+     }
+
+     /*===LOGO MENU BAR ICON END===*/
+
+     .banner {
+        height: 40vh;
+    }
+
+    .banner-right-panel {
+        max-width: 250px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        /*background-color: teal;*/
+    }
+
+    .banner-right-panel img {
+        width: 200px;
+        max-width: 200px;
+        height: auto;
+    }
+
+    .banner-left-flex-col {
+        max-width: 200px;
+        height: 70%;
+    }
+    
+    .banner-left-panel {
+        max-width: 200px;
+        height: 40%;
+    }
+    
+    .banner-left-flex-col .title {
+        font-size: 0.8rem;
+        margin-bottom: 10%;
+    }
+
+    .banner-left-panel .discription {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    button {
+        width: 100px;
+        height: 35px;
+        margin-top: 10%;
+        font-size: 11px;
+        text-shadow: 0.5px 0.5px 0.5px rgba(170, 170, 170, 0.7);
+        border-radius: 3px;
+    }
+
+    button:hover {
+        background: teal;
+        color: #fff;
+        text-shadow: 0.5px 0.5px 0.5px rgba(170, 170, 170, 0.7);
+        transition: none;
+    }
+
+    /*===BANNER ENDS===*/
+
+    .featured-product {
+        max-height: 40vh;
+        margin-bottom: 1.6rem;
+    }
+
+    .featured-product .title {
+        font-size: 1.6rem;
+        margin: 15px 0;
+    }
+
+    .product-container {
+        max-width: 100%;
+        height: auto;
+        justify-content: space-around;
+    }
+
+    .product-container .item {
+        width: 25%;
+        /*height: 100%;*/
+        box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.6);
+        /*background-color: green;*/
+    }
+
+    .product-container .item img {
+        width: 100%;
+        
+    }
+
+    p.image-label {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .price-tag {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    /*===FEATURED PRODUCT ENDS===*/
+
+    section.promotion {
+        height: 40vh;
+    }
+
+    .promotion-left-panel {
+        height: 100%;
+        width: 60%;
+        display: flex;
+        align-items: flex-end;
+        /*background: pink;*/
+    }
+
+    .promotion-right-panel {
+        height: 100%;
+        /*width: 40%;*/
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .off-50 {
+        font-family: 'Dancing Script', cursive;
+        font-weight: 700;
+        font-size: 3rem;
+        margin-bottom: -2rem;
+        color: rgb(85, 196, 233);
+        text-shadow: 1px 1px 1px rgb(0, 128, 128);
+    }
+    
+    .alt {
+        position: relative;
+        top: -2.5rem;
+        animation: flash 0.5s ease-in-out infinite;
+        color: rgb(172, 100, 78);
+    }
+    
+    @keyframes flash {
+        0% {
+            opacity: 0;
+            color: teal
+        }
+    }
+    
+    .woman-coll {
+        font-size: 1rem;
+        color: white;
+        /*margin-bottom: 30px;*/
+        text-shadow: 0.5px 0.5px 0.5px #000;
+    }
+
+    /*===PRODUCT PROMOTION ENDS===*/
+
+    div.carousel {
+        height: 55vh;
+        margin: 2rem auto 0;
+        /*background: #000;*/
+    }
+
+
+    div.carousel p {
+        font-size: 1.6rem;
+        margin: 1.6rem 0;
+    }
+    
+    div.carousel-inner {
+        width: 80%;
+        /*height: 30vh;*/
+        /*background-color: lightcoral;*/
+    }
+
+    div.carousel-item {
+
+        /*background-color: lightseagreen;*/
+    }
+
+    div.flex-row {
+        height: 100%;
+      }
+      
+      div.flex-col {
+        width: 24%;
+        height: 55%;
+      }
+      
+    div.image-rack {
+        width: auto;
+        max-height: 65%;
+    }
+
+    .carousel-control-next,
+    .carousel-control-prev {
+        width: 30px;
+        height: 30px;
+    }
+
+    .carousel-control-next {
+        margin-right: 0.5rem;
+    }
+
+    .carousel-control-prev {
+        margin-left: 0.5rem;
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        transform: scale(0.7);
+    }
+
+    div.flex-col p {
+        text-shadow: none;
+        padding: 0.1rem;
+      }
+      
+      div.flex-col p.image-label {
+        font-size: 0.9rem;
+      }
+      
+      div.flex-col p.price-tag {
+        font-size: 0.9rem;
+      }
+
+      .carousel-indicators li {
+        width: 0.8rem;
+        height: 0.8rem;
+    }
+
+    .rating {
+        font-size: 0.9rem;
+      }
+}
+
