@@ -435,12 +435,13 @@ section.promotion {
 
 div.custommer-support-container {
     width: 100%;
-    height: 40vh;
+    height: 40%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin: 0 0 3rem;
+    padding: 2rem;
 }
 
 div.custommer-support-item {
@@ -453,7 +454,6 @@ div.custommer-support-item {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 5px;
 }
 
 div.custommer-support-item span.icon img {
