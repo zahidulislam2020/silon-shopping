@@ -251,6 +251,7 @@ button:hover {
     color: #000;
     text-shadow: 0.5px 0.5px 0.5px rgba(170, 170, 170, 0.7);
     transition: ease-in-out 0.5s;
+    cursor: pointer;
 }
 
 /*===BANNER ENDS===*/
@@ -474,7 +475,7 @@ div.custommer-support-item p.description {
     font-weight: 300;
 }
 
-/*===SUPPORTS END*/
+/*===SUPPORTS END===*/
 
 
 div.trending-product-container {
@@ -487,6 +488,7 @@ div.trending-product-container-flex {
     height: 100%;
     margin: 0 auto;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     /*background-color: red*/
 }
@@ -509,13 +511,10 @@ div.trending-product-imageRack {
 }
 
 
-
-
-/*===FOOTER===*/
+/*===TRENDING ENDS===*/
 
 footer {
     width: 98%;
-    height: 62vh;
     margin: 0 auto 1rem;
     background-color: rgba(0, 0, 0, 0.6);
     color: white;
@@ -534,7 +533,7 @@ p.footer-column-title {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     margin-bottom: 2rem;
-    color: turquoise;
+    color: rgb(92, 203, 240);
 }
 
 p.column-list, span.column-list {
@@ -566,12 +565,34 @@ div.get-it-on {
     border-radius: 2px;
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
+    cursor: pointer;
 }
 
 div.apple {
     background-color: rgb(0, 128, 128);
     margin-left: 0.5rem;
     color: #fff;
+}
+
+div.follow-us {
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid rgba(148, 148, 148, 0.5);
+}
+
+.follow-us span i.fa {
+    color: #000;
+    background-color: #fff;
+    padding: 6px 8px;
+    border-radius: 2px;
+    margin-left: 3px;
+    transition: all 0.5s ease-in-out;
+}
+
+.follow-us span i.fa:hover {
+    color: #fff;
+    background-color: rgb(0, 128, 128);
+    cursor: pointer;
 }
 
 /*===CONTRIBUTION===*/
@@ -581,6 +602,9 @@ div.contribute {
     margin: 2rem auto 0;
     border-top: 1px solid rgba(148, 148, 148, 0.5);
 }
+
+
+/*=========THE END==========*/
 
 
 
