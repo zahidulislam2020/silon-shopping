@@ -49,3 +49,37 @@
 }
 
 /*===POPULAR PRODUCTS IMAGES ENDS===*/
+
+/*===TRENDING PRODUCTS IMAGES===*/
+
+div.trending-image-1 {
+    background: url(../img/trending-product/trending-image-1.webp);
+}
+
+div.trending-image-2 {
+    background: url(../img/trending-product/trending-image-2.jpg);
+}
+
+div.trending-image-3 {
+    background: url(../img/trending-product/trending-image-3.jpg);
+}
+
+div.trending-image-4 {
+    background: url(../img/trending-product/trending-image-4.jpg);
+}
+
+div.trending-image-5 {
+    background: url(../img/trending-product/trending-image-5.jpg);
+}
+
+div.trending-image-6 {
+    background: url(../img/trending-product/trending-image-6.jpg);
+}
+
+div.trending-image-7 {
+    background: url(../img/trending-product/trending-image-7.jpg);
+}
+
+div.trending-image-8 {
+    background: url(../img/trending-product/trending-image-8.jfif);
+}
