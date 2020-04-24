@@ -420,10 +420,6 @@ section.promotion {
     }
 }
 
-
-
-
-
 .woman-coll {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
@@ -436,6 +432,65 @@ section.promotion {
 /*===PRODUCT PROMOTION ENDS===*/
 
 /*===POPULAR PRODUCT CSS DESIGN REFER TO carousel-style.css FILE===*/
+
+div.custommer-support-container {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 3rem;
+}
+
+div.custommer-support-item {
+    width: 15%;
+    height: 60%;
+    border: 1px solid rgb(92, 203, 240);
+    padding: 0.5rem;
+    text-align: center;
+    margin-left: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+}
+
+div.custommer-support-item span.icon img {
+    width: 50px;
+    margin-bottom: 1.6rem;
+}
+
+div.custommer-support-item p.title {
+    margin-bottom: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+div.custommer-support-item p.description {
+    margin-top: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+/*===SUPPORTS END*/
+
+div.trending-product-container {
+    width: 100%;
+    background-color: royalblue;
+}
+
+
+
+/*===FOOTER===*/
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
 
 
 
